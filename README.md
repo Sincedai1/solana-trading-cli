@@ -81,7 +81,17 @@ Fetch critical metrics for any liquidity pool in real-time with RPC calls:
 
 
 ### Extensibility
+
 Our comprehensive toolkit provides everything you need to create your own custom trading bot, tailored to your unique strategies and requirements.
+
+### Basic Bot Example
+You can run a simple monitoring bot using the script in `examples/basic-bot.ts`:
+
+```bash
+ts-node examples/basic-bot.ts <TOKEN_ADDRESS> [examples/basic-config.json]
+```
+
+Replace `<TOKEN_ADDRESS>` with the mint address you want to monitor. Optionally pass a JSON config file to customize trade size, slippage, and thresholds. The example periodically fetches prices from Dexscreener and demonstrates how to trigger buy and sell actions using the library.
 
 ## 🛠️ Installation
 Follow these steps to get your development environment set up:
