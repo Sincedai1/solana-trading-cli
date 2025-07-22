@@ -1,0 +1,7 @@
+{
+  "rpcEndpoint": "https://api.mainnet-beta.solana.com",
+  "slippage": 100,
+  "tradeAmount": 0.1,
+  "buyThreshold": 0.02,
+  "sellThreshold": -0.02
+}
